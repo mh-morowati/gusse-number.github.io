@@ -68,7 +68,11 @@ input[type="number"] {
   transform: scale(0.8);
 }
 @media screen and (max-width: 480px) {
-  #main-section {
-    width: 80%;
+  #my-div {
+    width: 100%;
+    height: 100%;
+  }
+  #heart {
+    margin: 0;
   }
 }
